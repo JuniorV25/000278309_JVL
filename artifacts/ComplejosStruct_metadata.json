@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_codigo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_edad",
+						"type": "uint256"
+					}
+				],
+				"name": "agregarAlumno",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indice",
+						"type": "uint256"
+					}
+				],
+				"name": "mostrarAlumnoV1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "Codigo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Nombre",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indice",
+						"type": "uint256"
+					}
+				],
+				"name": "mostrarAlumnoV2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "Codigo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Edad",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indice",
+						"type": "uint256"
+					}
+				],
+				"name": "mostrarAlumnoV3",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "codigo",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "nombre",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "edad",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct ComplejosStruct.Alumno",
+						"name": "alumno",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15_Complejos_Struct.sol": "ComplejosStruct"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15_Complejos_Struct.sol": {
+			"keccak256": "0x1a313a1a7ab58e6f5ba7270a530590be0468f26879c2896032852fe9800cc2c8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://34a3372bff07f5bbf97b52272032e9599f2b2c9ae5243d4aeeab85c2a6eedc14",
+				"dweb:/ipfs/QmWsrcL55K1p4GaygWRvYJrtZwVXKZDgDxvm2P9irKB7kd"
+			]
+		}
+	},
+	"version": 1
+}

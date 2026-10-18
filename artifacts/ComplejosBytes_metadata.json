@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "datos",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_datos",
+						"type": "bytes"
+					}
+				],
+				"name": "guardarComoBytes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "texto",
+						"type": "string"
+					}
+				],
+				"name": "guardarComoTexto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "obtenerDatosComoString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/13_Complejos_Byte.sol": "ComplejosBytes"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/13_Complejos_Byte.sol": {
+			"keccak256": "0x7ccd5dbee7051559e3b19bd74acbd2ac288b91d28ab582894f1f7695db0bb180",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1dac5562881b919a0302e90fd52e49ef7d4b2327d109cd1069c2ef592a729e86",
+				"dweb:/ipfs/QmZGw7sE2de8VBYjtVW82vCR7dVjcDNDi4wyWG6BewesDb"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "invocador",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "anteriorValor",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "nuevoValor",
+						"type": "uint256"
+					}
+				],
+				"name": "CambioValorCantidad",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_cantidad",
+						"type": "uint256"
+					}
+				],
+				"name": "cambiarCantidad",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "obtenerCantidad",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7_Eventos.sol": "Eventos"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7_Eventos.sol": {
+			"keccak256": "0x5befd045ba730ab5b96a07b9b9333a6c9e0af7ad5b3d7f3be4e7beb5295665fa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0a9e0088cac08e633360d3282a7dbf15123ae0781255ac34ae8ad9a02e203ad1",
+				"dweb:/ipfs/QmcNgDBCj55o8BELiaHMjSDxqs7wBJEeX5PWo7jPdZcuFn"
+			]
+		}
+	},
+	"version": 1
+}

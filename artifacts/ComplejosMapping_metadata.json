@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_codigo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_edad",
+						"type": "uint256"
+					}
+				],
+				"name": "agregarAlumno",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_monto",
+						"type": "uint256"
+					}
+				],
+				"name": "asignarmeSoles",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_codigo",
+						"type": "uint256"
+					}
+				],
+				"name": "obtenerEmpleado",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "Codigo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Edad",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "saldoCuentas",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_monto",
+						"type": "uint256"
+					}
+				],
+				"name": "sumarmeSoles",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/16_Complejo_Mapping.sol": "ComplejosMapping"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/16_Complejo_Mapping.sol": {
+			"keccak256": "0xe7c077818f5002d5b5776f7e0a79e31d58315b9fb715a6a5b3f1824a682a852d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9f169cd4540d12727117b75cf23cad0ff6d4cedb62f9ec3d9ae838472816ae31",
+				"dweb:/ipfs/QmZgZzsWcN2RkYRe1oZCxx1LfCmDPgk61p43yZdKEfzT6U"
+			]
+		}
+	},
+	"version": 1
+}
