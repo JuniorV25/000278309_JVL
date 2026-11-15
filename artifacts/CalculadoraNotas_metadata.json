@@ -36,6 +36,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "devolverformula",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "formula",
 				"outputs": [
 					{
@@ -92,11 +105,11 @@
 			]
 		},
 		"contracts/24_ReutilizarContrato.sol": {
-			"keccak256": "0xb80cea84ba0b89a28e4e61cd1dc0480c998528ff953a6d6983ac9ff22c5a7e4f",
+			"keccak256": "0x84ecb65e84ed20acc97fa90d36fcc7694a87db7f0e248b0eb456e2425c80b1f5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://edaf8c30f6375da1220427670c1eaa9221a801d5fcd396ba0bed8fe283aec277",
-				"dweb:/ipfs/QmPrvNzo7LeqKesqTxzweBhsj77RnEQLNHxr3UHX5tSRH6"
+				"bzz-raw://d0df0a63c0cba0746ebec57296e4f6e3e9e18b965cac1d8f15787da54509b436",
+				"dweb:/ipfs/QmQ7QRNijdsAE5ofEb18w6KcLZViqpr8AYUyQeo3DArpTn"
 			]
 		}
 	},
